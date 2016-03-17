@@ -1,0 +1,114 @@
+	#mask {
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:99998;
+    background-color: #4D4D4D;
+    display:none;
+}
+.dialog_content{
+    display: inline;
+
+}
+#frm_subscribe {
+    display: inline-block;
+    position: relative;
+}
+.newletter-container #notification div {
+    color: red;
+    position: absolute;
+    bottom: -25px;
+    left: 10px;
+	font-size:11px;
+}
+.newletter-container .box{display:inline-block;}
+.newletter-title {
+    float: left;
+	margin-right: 15px;
+}
+.newleter-content {float:left;}
+.newletter-title h2 {
+	color: #3c3c3c;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 700;
+    line-height: 35px;
+}
+.newletter-title label {
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0 0 5px;
+    color: #fff;
+    font-family: arial;
+}
+.newletter-container .close a {
+    display: inline-block;
+}
+.newleter-content table {
+    float: right;
+}
+.newletter-container .newleter-content label {
+    display: inline-block;
+    font-size: 13px;
+    color: #666;
+}
+.newletter-container .newleter-content span {
+    font-size: 14px;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: normal;
+    display: none;
+}
+.newletter-container .newleter-content tr {
+    float: left;
+    margin: 0;
+	margin-left:-10px;
+    display: inline-block;
+    width: auto;
+}
+.newletter-container .newleter-content input {
+    width: 185px;
+    float: left;
+    border: none;
+    background: #fff;
+    padding: 8px 10px;
+    height: 36px;
+    color: #333;
+}
+.newletter-container .newleter-content .button {
+    text-transform: uppercase;
+    font-family: arial;
+    background: #1889e0;
+    text-align: center;
+    white-space: nowrap;
+    display: inline-block;
+}
+.newletter-container .newleter-content .button:hover span {
+    color: #fff;
+}
+.newletter-container .newleter-content .button span {
+	text-indent:-9999px;
+}
+.newletter-container .newleter-content .button:before{
+	content:'\f054';
+	color: #fff !important;
+    font-weight: normal;
+    display: inline-block;
+	height:36px;
+	width:36px;
+	line-height:36px;
+    font-size: 14px;
+	font-family: FontAwesome;
+	background: #ff8827;
+}
+@media (max-width: 570px) {
+	.newletter-container .newleter-content input{width:220px;}
+}
+@media (max-width: 450px) {
+.newletter-container .newleter-content tr {
+    float: none;
+    margin-top: 10px;
+}
+}

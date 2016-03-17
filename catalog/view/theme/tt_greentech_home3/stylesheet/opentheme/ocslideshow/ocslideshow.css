@@ -1,0 +1,349 @@
+/*
+ * jQuery FlexSlider v2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+
+
+/* Browser Resets */
+.oc-banner7-container .flex-container a:active,
+.oc-banner7-container .flexslider a:active,
+.oc-banner7-container .flex-container a:focus,
+.oc-banner7-container .flexslider a:focus  {outline: none;}
+.oc-banner7-container .slides,
+.oc-banner7-container .flex-control-nav,
+.oc-banner7-container .flex-direction-nav {ocrgin: 0; padding: 0; list-style: none;} 
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.oc-banner7-container .flexslider {ocrgin: 0; padding: 0;}
+.oc-banner7-container .flexslider .slides > li {display: none; -webkit-backface-visibility: hidden; position: relative; } /* Hide the slides before the JS is loaded. Avoids iocge jumping */
+.oc-banner7-container .flexslider .slides img {display: block;}
+.oc-banner7-container .flex-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slides element */
+.oc-banner7-container .slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .oc-banner7-container .slides {display: block;} 
+* html .oc-banner7-container .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, ocke sure you
+ * include js that eliminates this class on page load */
+.no-js .oc-banner7-container .slides > li:first-child {display: block;}
+
+
+/* FlexSlider Default Theme
+*********************************/
+.oc-banner7-container .flexslider {ocrgin: 0 0 0px 0; position: relative; zoom: 1;}
+.oc-banner7-container .flex-viewport {ocx-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
+.oc-banner7-container .loading .flex-viewport {ocx-height: 300px;}
+.oc-banner7-container .flexslider .slides {zoom: 1;}
+
+.oc-banner7-container .carousel li {ocrgin-right: 5px}
+/* Direction Nav */
+.nivo-directionNav .nivo-prevNav{
+	left: -50px;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.oc-banner7-container:hover .nivo-prevNav{
+	opacity:1; 
+	left:-25px; 
+	-webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.nivo-directionNav .nivo-nextNav{
+	background-position: 100% 0;
+    right: -50px;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.oc-banner7-container:hover .nivo-nextNav{
+	opacity:1; 
+	right:-25px; 
+	-webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.nivo-directionNav a{width: 50px;
+    height: 50px;
+    margin: -29px 0 0;
+    display: block;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    font-size: 0;
+    z-index: 9;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    background: #000;
+}
+.nivo-directionNav a:before{
+	display: block;
+    font-family: FontAwesome;
+    color: #fff;
+    font-size: 16px;
+    width: 20px;
+    height: 20px;
+}
+.nivo-directionNav a:hover{background:#00a9e0;}
+.nivo-directionNav .nivo-prevNav:before{
+	    content: "\f104";
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+}
+.nivo-directionNav .nivo-nextNav:before{
+	    content: "\f105";
+    transform: rotate(-135deg) translateX(-25px);
+    -webkit-transform: rotate(-135deg) translateX(-25px);
+    -moz-transform: rotate(-135deg) translateX(-25px);
+}
+/* Control Nav */
+.nivo-controlNav {
+	text-align:center;
+	padding:0;
+}
+.nivo-controlNav a {
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+.oc-banner7-container .flex-control-nav,
+.nivo-controlNav {width: 100%; position: absolute; bottom: 30px; text-align: center;}
+.oc-banner7-container .flex-control-nav li { ocrgin: 0 6px; display: inline-block; zoom: 1; *display: inline; }
+.oc-banner7-container .flex-control-paging li a,
+.nivo-controlNav a {width: 11px; height: 11px; display: block; background: #aaa; cursor: pointer; text-indent: -9999px; -webkit-border-radius: 100%; -moz-border-radius: 100%; -o-border-radius: 100%; border-radius: 100%; box-shadow: inset 0 0 3px rgba(0,0,0,0.3); z-index: 9; }
+.oc-banner7-container .flex-control-paging li a:hover,
+.oc-banner7-container .flex-control-paging li a.flex-active,
+.nivo-controlNav a:hover,
+.nivo-controlNav a.active {
+	cursor: pointer;
+    height: 10px;
+    line-height: 10px;
+    width: 10px;
+}
+
+
+.oc-banner7-container .flex-control-thumbs {ocrgin: 5px 0 0; position: static; overflow: hidden;}
+.oc-banner7-container .flex-control-thumbs li {width: 25%; float: left; ocrgin: 0;}
+.oc-banner7-container .flex-control-thumbs img {width: 100%; display: block; opacity: .7; cursor: pointer;}
+.oc-banner7-container .flex-control-thumbs img:hover {opacity: 1;}
+.oc-banner7-container .flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
+
+
+.oc-nivoslider {
+	/*overflow: hidden;*/
+}
+.nivoslider {
+	position: relative;
+	overflow: hidden;
+	height: auto;
+	width: 100%; 
+}
+.nivoslider img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.nivo-controlNav {
+    padding: 0px 0;
+    text-align: center;
+}
+.nivo-controlNav a {
+    background-color: #ffffff;
+    border: 0 none;
+    border-radius: 100%;
+    cursor: pointer;
+    display: inline-block;
+    height: 8px;
+    line-height: 8px;
+    margin: 0 3px;
+    position: relative;
+    text-indent: -9999px;
+    width: 8px;
+}
+
+
+.banner7-caption {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	background: none repeat scroll 0% 0% transparent;
+	color: #FFF;
+	font-size: 16px;
+	z-index: 999;
+}
+@-webkit-keyframes timeloading {
+  from {width: 0;}
+  to {width: 100%;}
+ }
+ @keyframes timeloading {
+  from {width: 0;}
+  to {width: 100%;}
+ }
+.timeloading{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(49, 56, 72, 0.298);
+	height: 5px;
+	animation: 5000ms ease-in-out 0s normal none 1 running timeloading;
+}
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.banner7-content{  position: absolute;
+  height: 100%;
+  left: 0;
+  bottom: 0; 
+  right: 0;
+  font-size:16px;
+}
+.banner7-content .title1{display:none;}
+.banner7-content .text-content {display:none;} 
+.banner7-content img { top: 0; position: absolute;  height: 100%;  }
+.banner7-content .banner7-des {
+	display:none;
+}
+.banner7-readmore{text-align:center;}
+.banner7-readmore a {
+	font-size: 0.8em;
+    padding: 0.625em 0.9375em;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid rgba(255,255,255,0.8);
+    color: #fff;
+	animation: slideInUp 0.5s linear alternate; 
+	-webkit-animation: slideInUp 0.5s linear alternate;
+	-moz-animation: slideInUp 0.5s linear alternate;
+}
+.banner7-readmore a:hover {
+	background: #292560;
+    border-color: #292560;
+}
+/***************slider 1*****************/
+.slider-1 .img1 {
+	animation: slideInRight 0.5s linear alternate; 
+	-webkit-animation: slideInRight 0.5s linear alternate;
+	-moz-animation: slideInRight 0.5s linear alternate;
+}
+.slider-1 .img1 {position: absolute; margin-left: -170px; left: 50%;}
+/********End_Slider1********/
+
+/**************Slider 2***************/
+.slider-2 .img1 {
+	-webkit-animation: zoomIn 700ms ease-in-out;
+    -moz-animation: zoomIn 700ms ease-in-out;
+    -ms-animation: zoomIn 700ms ease-in-out;
+    animation: zoomIn 700ms ease-in-out;
+}
+.slider-2 .img1 {position: absolute; margin-left: -222px; left: 50%;}
+.slider-2 .banner7-readmore { margin-top: 1.25em;  }
+
+/**************Slider 3***************/
+.slider-3 .img1 {
+		animation: slideInLeft 0.5s linear alternate; 
+	-webkit-animation: slideInLeft 0.5s linear alternate;
+	-moz-animation: slideInLeft 0.5s linear alternate;
+	-ms-animation: slideInLeft 0.5s linear alternate;
+}
+.slider-3 .img1 {position: absolute; margin-left: -150px; left: 50%;}
+.slider-3 .banner7-readmore { margin-top: 1.25em;  }
+
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	max-width: none;
+}
+.nivo-main-image {
+	display: block !important;
+	position: relative !important; 
+	width: 100% !important;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+	background:white; 
+	filter:alpha(opacity=0); 
+	opacity:0;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+	top:0;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+	overflow:hidden;
+}
+.nivo-box img { display:block; }
+
+/* Caption styles */
+.nivo-caption {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	color: #FFF;
+	width: 100%;
+	z-index: 8;
+	height: 100%;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+
+.nivo-html-caption {
+    display:none;
+}
+@media (max-width: 767px) {
+	.slider-1 .img1,
+	.slider-2 .img1,
+	.slider-3 .img1{margin-left: -60px;}
+}
+@media (max-width: 450px) {
+	.slider-1 .img1,
+	.slider-2 .img1,
+	.slider-3 .img1{margin-left: -30px;}
+}

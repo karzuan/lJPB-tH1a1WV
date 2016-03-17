@@ -1,0 +1,208 @@
+.ajax-loader { display: none; z-index: 1000; position: fixed; top: 50%; left: 50%; }
+.layered-navigation-block { display: none; background-color : black; height : 100%; opacity : 0.35; position : fixed; top : 0; left: 0; width : 100%; z-index : 900; }
+/** layernavigation**/
+.layerednavigation .layered{
+	background-color: #fff;
+}
+.layered-title h2 {
+    position: relative;
+    display: block;
+	margin:0;
+    line-height: 26px;
+	padding: 10px 0;
+	font-size: 14px;
+	text-transform: uppercase;
+    font-weight: 500;
+	color: #222222;
+}
+.layered .value {
+    display: block;
+    vertical-align: top;
+    line-height: 25px;
+    color: #a3cf0c;
+    text-transform: capitalize;
+}
+.fillter-choose li{
+  padding: 6px 24px 6px 10px;
+  position: relative;
+  z-index: 1;
+  line-height: 1.5;
+  border-bottom: 1px solid #DDD;
+}
+.btn-remove {
+  position: absolute;
+  right: 4px;
+  top: 9px;
+  margin: 0px;
+  cursor: pointer;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  font-size: 0px;
+  line-height: 0;
+  background: url("../image/btn_remove.gif") no-repeat scroll 0px 0px transparent;
+  text-indent: -999em;
+  overflow: hidden;
+}
+.fillter-choose a{
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.layered .actions {
+    font-size: 11px;
+    padding: 0;
+    text-align: right;
+    position: static;
+    float: none;
+    margin: 10px 0 0;
+	background:none;
+}
+.layered-heading{
+  margin-bottom: 20px;
+  position: relative;
+}
+.layered-heading::before {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #DDD none repeat scroll 0% 0%;
+    z-index: -1;
+}
+.slider-values{
+  /*text-align: center;*/
+  margin:15px 0;
+}
+#price-to,
+.price-to{
+  float: right;
+}
+.price-to{
+  line-height: 21px;
+  
+}
+.price-form,
+.price-to{
+  padding: 3px 0 0 0;
+}
+#slider-price{
+  margin: 10px;
+  background-color:#E7E7E7 !important;
+  border: 0 !important;
+}
+.ui-corner-all{
+  border-radius: 0 !important;
+}
+#slider-price .ui-state-default,
+#slider-price .ui-widget-content .ui-state-default{
+    position: absolute;
+    z-index: 2;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    border-radius: 100% !important;
+    background: #a3cf0c;
+	top:-5px;
+}
+#slider-price .ui-state-default::before,
+#slider-price .ui-widget-content .ui-state-default::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 8px;
+}
+.ui-state-default, .ui-widget-content .ui-state-default{border:0;}
+#slider-price .ui-widget-header{
+    background: #a3cf0c;
+	height: 7px;
+}
+#slider-price.ui-slider-horizontal{
+  height: 2px !important;
+}
+.slider-values input{
+  width: 50px;
+  padding: 3px 0px 4px 4px;
+  border: 0px none;
+  background: none repeat scroll 0% 0% transparent;
+  color: #797979;
+  font-size: 14px;
+  
+}
+.filter-attribute-container{
+  border-radius: 0;
+      padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.layered-content{
+  padding: 10px 0 0;
+}
+.layered-content ul li {
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 29px;
+    color: #313131;
+}
+.layered-content ul li:hover{
+  cursor: pointer;
+}
+.layered-content ul li:hover a::before,
+.layered-content ul li:hover a{
+  color: #a3cf0c;
+  border-color: #a3cf0c;
+}
+.layered-content ul li:last-child {
+    border-bottom: 0px none;
+}
+.layered-content li a {
+	line-height: 29px;
+	color: #6D6D6D;
+	text-transform: capitalize;
+	font-size: 13px;
+}
+.layered-content li a::before {
+	display: inline-block;
+    content: "";
+    width: 11px;
+    height: 11px;
+    border-radius: 2px;
+    line-height: 35px;
+    margin-right: 10px;
+	content: "\f101";
+    font-family: FontAwesome;
+	font-size:10px;
+}
+/** /layernavigation**/
+.block-title {
+    margin-bottom: 20px;
+    position: relative;
+}
+.block-title::before {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #DDD none repeat scroll 0% 0%;
+    z-index: -1;
+}
+.block-title strong {
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #373737;
+    margin: 0px;
+    line-height: 40px;
+    font-weight: 400;
+    border: 1px solid #46A3B0;
+    border-radius: 20px;
+    background-color: #FFF;
+}
+.block-title strong span {
+    padding: 0px 30px;
+}
