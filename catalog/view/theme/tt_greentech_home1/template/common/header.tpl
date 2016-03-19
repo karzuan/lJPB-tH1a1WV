@@ -134,7 +134,7 @@ $(document).ready(function() {
 					<div class="top-cart">
 						<?php echo $cart; ?>
 					</div>
-					<a href="<?php echo $wishlist; ?>" class="top-wishlist" id="wishlist-total" title="<?php echo $text_wishlist; ?>"><span><?php echo $text_wishlist; ?></span></a>
+                                    <a href="<?php echo $wishlist; ?>" class="top-wishlist" id="wishlist-total" title="<?php echo $text_wishlist; ?>"><span><?php //echo $text_wishlist; ?></span></a>
 					
 				</div>
 			</div>
