@@ -800,3 +800,183 @@
 2016-03-19 7:57:05 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
 2016-03-19 7:57:05 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
 2016-03-19 7:57:05 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 8:45:11 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 8:45:11 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 8:45:11 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 8:45:11 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 8:45:11 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 8:45:11 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 8:45:37 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 8:45:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 8:45:37 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 8:45:37 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 8:45:37 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 8:45:37 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 8:46:07 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 8:46:07 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 8:46:07 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 8:46:07 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 8:46:07 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 8:46:07 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 9:05:41 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:05:41 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:05:41 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 9:05:41 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 9:05:41 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 9:05:41 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 9:18:35 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:18:35 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:18:36 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 9:18:36 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 9:18:36 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 9:18:36 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 9:18:43 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:18:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:18:44 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 9:18:44 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 9:18:44 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 9:18:44 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 9:22:17 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:22:17 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:22:17 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 9:22:17 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 9:22:17 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 9:22:17 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 9:22:20 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:22:20 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:22:20 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 9:22:20 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 9:22:20 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 9:22:20 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 9:30:54 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:30:54 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:30:54 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 9:30:54 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 9:30:54 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 9:30:54 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 9:34:35 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:34:35 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:34:36 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 9:34:36 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 9:34:36 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 9:34:36 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 9:35:49 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:35:49 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:35:49 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 9:35:49 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 9:35:49 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 9:35:49 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 9:36:05 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:36:05 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:36:05 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 9:36:05 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 9:36:05 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 9:36:05 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 9:39:22 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:39:22 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:39:22 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 9:39:22 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 9:39:22 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 9:39:22 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 9:59:28 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:59:28 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 9:59:30 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 9:59:30 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 9:59:30 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 9:59:30 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 10:23:27 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 10:23:27 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 10:23:28 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 10:23:28 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 10:23:28 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 10:23:28 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 10:24:13 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 10:24:13 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 10:24:13 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 10:24:13 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 10:24:13 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 10:24:13 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 10:58:13 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 10:58:13 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 10:58:14 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 10:58:14 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 10:58:14 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 10:58:14 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 10:58:16 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 10:58:16 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 10:58:16 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 10:58:16 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 10:58:16 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 10:58:16 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 10:58:18 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 10:58:18 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 10:58:18 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 10:58:18 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 10:58:18 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 10:58:18 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 10:58:22 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 10:58:22 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 10:58:22 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 10:58:22 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 10:58:22 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 10:58:22 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 10:59:03 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 10:59:03 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 10:59:04 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 10:59:04 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 10:59:04 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 10:59:04 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 10:59:22 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 10:59:22 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 10:59:23 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 10:59:23 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 10:59:23 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 10:59:23 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 11:01:35 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 11:01:35 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 11:01:35 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 11:01:35 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 11:01:35 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 11:01:35 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 11:02:23 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 11:02:23 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 11:02:24 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 11:02:24 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 11:02:24 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 11:02:24 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 11:02:38 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 11:02:38 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 11:02:38 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 11:02:38 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 11:02:38 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 11:02:38 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 11:02:55 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 11:02:55 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 11:02:55 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 11:02:55 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 11:02:55 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 11:02:55 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 11:03:08 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 11:03:08 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 11:03:09 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 11:03:09 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 11:03:09 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 11:03:09 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 11:03:47 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 11:03:47 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 11:03:48 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 11:03:48 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 11:03:48 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 11:03:48 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 11:03:49 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 11:03:49 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 11:03:50 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 11:03:50 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 11:03:50 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 11:03:50 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51
+2016-03-19 11:05:15 - PHP Notice:  Undefined variable: products in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 11:05:15 - PHP Warning:  Invalid argument supplied for foreach() in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ttcountdown.tpl on line 26
+2016-03-19 11:05:15 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 46
+2016-03-19 11:05:15 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 47
+2016-03-19 11:05:15 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 49
+2016-03-19 11:05:15 - PHP Notice:  Undefined variable: config_slide in /home/k/karzua/igodno.ru/public_html/catalog/view/theme/tt_greentech_home1/template/module/ocfeaturedcategory.tpl on line 51

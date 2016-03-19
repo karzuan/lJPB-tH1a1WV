@@ -134,8 +134,8 @@
     z-index: 3000;
     background-color: none !important;
 }
-.pt_vmegamenu div.column {
-    width: 170px;
+.pt_vmegamenu div.column { 
+    width: 170px;/** def 170 **/
 }
 .pt_vmegamenu .pt_ver_menu .popup .content-popup{
     background: #fff;
