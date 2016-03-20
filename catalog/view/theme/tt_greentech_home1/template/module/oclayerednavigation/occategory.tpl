@@ -26,6 +26,35 @@
 			<div class="category-des"><?php echo $description; ?></div>
 			<?php } ?>
 			<?php } ?>
+                        
+      <?php if ($categories) { ?>
+      <h3><?php echo 'Уточните поиск:'; ?></h3>
+      <?php if (count($categories) <= 5) { ?>
+      <div class="row">
+        <div class="col-sm-3">
+          <ul>
+            <?php foreach ($categories as $category) { ?>
+            <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+            <?php } ?>
+          </ul>
+        </div>
+      </div>
+      <?php } else { ?>
+      <div class="row">
+        <?php foreach (array_chunk($categories, ceil(count($categories) / 4)) as $categories) { ?>
+        <div class="col-sm-3">
+          <ul>
+            <?php foreach ($categories as $category) { ?>
+            <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+            <?php } ?>
+          </ul>
+        </div>
+        <?php } ?>
+      </div>
+      <?php } ?>
+      <?php } ?>
+                        
+                        
             <div class="custom-category">
                 <?php if ($products) { ?>
                 <div class="product-filter">
@@ -131,7 +160,7 @@
                 </div>
                 <?php } ?>
                 <?php if ((!$categories && !$products)||(!$products)) { ?>
-                <p><?php echo $text_empty; ?></p>
+                <p><?php //echo $text_empty; ?></p>
                 <div class="buttons">
                     <div class="pull-right"><a href="<?php echo $continue; ?>" class="btn btn-primary"><?php echo $button_continue; ?></a></div>
                 </div>
