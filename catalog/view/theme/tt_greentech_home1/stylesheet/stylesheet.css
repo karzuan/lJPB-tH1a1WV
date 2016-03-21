@@ -385,10 +385,41 @@ button:hover {
 	line-height: 45px;
     background: #00a9e0;
     color: #fff;
-    position: relative;
-    z-index: 100;
+    position: fixed;
+    width:100%;
+    z-index: 9997;
 	font-size:12px;
 }
+
+
+#logo-fixed.image {
+    content:url('http://igodno.ru/image/catalog/logot.png');
+    z-index: 9998;
+    background-color: #c9c9c9;
+}
+    #trr {
+    display: inline;
+    
+    } 
+
+@media (max-width: 950px) {
+    #logo-fixed.image {
+    content:url('http://igodno.ru/image/cache/catalog/ifavicon-100x100.png');
+    z-index: 9998;
+    #ul_top_menu li {display: list-item;}
+    table td { display:none; }
+    table.topmenu td.header-welcome  { text-decoration: none; }
+    #trr {
+    display: none;
+    visibility: hidden;
+    } 
+    }
+}
+
+
+
+
+
 .header-welcome {float:left;}
 .header-search-parent{padding-top:40px;}
 /*langguage-currency*/
@@ -690,6 +721,7 @@ span.item-cart{font-size:11px; font-weight:400; text-transform:none;}
 .header {
     text-align: center;
     width: 100%;
+    padding: 45px 0 0 0;
 }
 .header.fix-nav{
 	position: fixed;

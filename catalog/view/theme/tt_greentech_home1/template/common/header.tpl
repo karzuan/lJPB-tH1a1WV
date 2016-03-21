@@ -87,14 +87,30 @@ $(document).ready(function() {
 <header>
 <div class="top-header">
 		<div class="container">
-			<div class="header-welcome">
-				<?php echo $text_msg; ?>
-			</div>
-			<div class="header-link">
+                        <table class="topmenu">
+                            <tr>
+                                <td style="width:25%;">
+                                    <div id='logo-fixed'></div>
+                                </td>
+                                <td style="width:25%;">
+                                    
+                                        <div class="header-welcome" >
+                                            <p id='trr'><?php echo $text_msg; ?></p>
+                                        </div>
+                                </td>
+                                         
+                                <td style="width:35%;">
+                                    
+                                    <strong><a href="tel:+79119240310" id='tel' >8 911 924-03-10</a></strong>
+                                 </td>
+                                 <td>
+                                        <div class="header-link"> 
 				<div class="top-link">
-					<div class="toplink-hover"><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a><i class="fa fa-angle-down"></i></div>
+                                        
+					<div class="toplink-hover"><a href="<?php echo $account; ?>" id='akk'><?php echo $text_account; ?></a><i class="fa fa-angle-down"></i></div>
 					<div class="top-link-inner">
-						<ul>
+                                            <ul>
+                                                        
 							<li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
 							<li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
 							<li><a href="<?php echo $transaction; ?>"><?php echo $text_transaction; ?></a></li>
@@ -111,7 +127,16 @@ $(document).ready(function() {
 					<div class="currency"><?php //echo $currency; ?></div>
 					<div class="language"><?php //echo $language; ?></div>
 				</div>
-			</div>
+                                    </div>
+                      
+                                </td>
+                            </tr>
+                        </table>
+
+			
+                        
+                        
+                       
 		</div>
 </div>
 <div class="header">

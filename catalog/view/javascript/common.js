@@ -575,3 +575,28 @@ $(document).delegate('.agree', 'click', function(e) {
 		});
 	}
 })(window.jQuery);
+
+// ****************** Header Scroll Effect **********************
+$(window).scroll(function () {
+     var sc = $(window).scrollTop()
+    if (sc > 100) {
+        $("#logo-fixed").addClass("image")
+    } else {
+        $("#logo-fixed").removeClass("image")
+    }
+});
+
+window.onload = function() {
+    /* Add your logic here */
+
+if(screen.width < 950 ){
+var trr = document.getElementById("trr");
+var tel = document.getElementById("tel");
+var akk = document.getElementById("akk");
+trr.innerHTML = " ";
+tel.innerHTML = "89119240310";
+akk.innerHTML = "лич.кабинет";
+}
+
+}
+// **************** Header Scroll Effect end ********************
