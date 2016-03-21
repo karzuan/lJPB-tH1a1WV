@@ -108,8 +108,8 @@ $(document).ready(function() {
 					</div>
 				</div>
 				<div class="box-language-currency">
-					<div class="currency"><?php echo $currency; ?></div>
-					<div class="language"><?php echo $language; ?></div>
+					<div class="currency"><?php //echo $currency; ?></div>
+					<div class="language"><?php //echo $language; ?></div>
 				</div>
 			</div>
 		</div>

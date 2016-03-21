@@ -1,5 +1,12 @@
+<?php 
+   /* function cut_cat($category){
+        return substr($category, 0, 11);
+    }
+    */
+?>
 <div id="search-by-category" class="input-group">
     <div class="search-container">
+        <!--
         <div class="categories-container">
             <div class="hover-cate">
             <p><span class="cate-selected" data-value="0"><?php echo $text_category; ?></span><span class="cate-selected-last"></span></p>
@@ -12,7 +19,9 @@
                 <?php } else { ?>
                 <li data-value="<?php echo $category_1['category_id']; ?>" class="item-cate"><?php echo $category_1['name']; ?></li>
                 <?php } ?>
-                <?php foreach ($category_1['children'] as $category_2) { ?>
+                <?php
+                /*
+                 foreach ($category_1['children'] as $category_2) { ?>
                 <?php if ($category_2['category_id'] == $category_id) { ?>
                 <li data-value="<?php echo $category_2['category_id']; ?>" class="selected item-cate f1"><?php echo $category_2['name']; ?></li>
                 <?php } else { ?>
@@ -25,15 +34,18 @@
                 <li data-value="<?php echo $category_3['category_id']; ?>" class="item-cate f2"><?php echo $category_3['name']; ?></li>
                 <?php } ?>
                 <?php } ?>
-                <?php } ?>
+                <?php } 
+                */?>
                 <?php } ?>
             </ul>
             </div>
+        
         </div>
+        !-->
 		<input type="text" name="search" id="text-search" value="" placeholder="<?php echo $text_search; ?>" class="form-control input-lg"  />
 		<span id="sp-btn-search" class="input-group-btn">
             <button type="button" id="btn-search-category" class="btn btn-default btn-lg">
-                GO
+                искать
             </button>
         </span>
     </div>
@@ -110,6 +122,26 @@
 
             location = url;
         });
+        
+        
+        $('#text-search').keydown(function(e) {
+      if (e.keyCode == 13) {
+         var url = '<?php echo $search_action; ?>';
+            var text_search = $('#text-search').val();
+            if(text_search) {
+                url += '&search=' + encodeURIComponent(text_search);
+            }
+
+            var category_search = $('.cate-selected').attr("data-value");
+            if(category_search) {
+                url += '&category_id=' + encodeURIComponent(category_search);
+            }
+
+            location = url;
+      }
+   });
+
+        
 
         if(ajax_search_enable == '1') {
             $('#text-search').keyup(function(e) {
