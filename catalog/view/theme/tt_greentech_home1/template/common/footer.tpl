@@ -59,7 +59,7 @@
 				<ul class="toggle-footer footer-content">
 					<li><span><?php echo $text_address; ?></span><?php echo $address; ?></li>
 					<li><span><?php echo $text_telephone; ?></span><?php echo $telephone; ?></li>
-					<li><span><?php echo $text_fax; ?></span><?php echo $fax; ?></li>
+					<!--<li><span><?php echo $text_fax; ?></span><?php echo $fax; ?></li>!-->
 					<li><span><?php echo $text_email; ?></span><?php echo $email; ?></li>
 			   </ul>
 			   <a class="banner-footer" href="#"><img alt="" src="image/catalog/banner-footer.jpg"></a>

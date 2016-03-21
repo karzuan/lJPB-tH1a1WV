@@ -1,17 +1,17 @@
 <?php
-$_['heading_title']     = 'Special Offers';
-$_['heading_title1']     = 'Special';
-$_['heading_title2']     = 'Offers';
+$_['heading_title']     = 'Специальные предложения';
+$_['heading_title1']     = 'Специальные';
+$_['heading_title2']     = 'предложения';
 
 //Text
-$_['text_reviews']      = '%s reviews';
-$_['text_years']        = "Years";
-$_['text_months']       = "Months";
-$_['text_weeks']        = "Weeks";
-$_['text_days']         = "Days";
-$_['text_hours']        = "Hrs";
-$_['text_minutes']      = "Mins";
-$_['text_seconds']      = "Secs";
-$_['text_new']      	= "new";
-$_['text_sale']     	= "sale";
+$_['text_reviews']      = '%s просмотров';
+$_['text_years']        = "Лет";
+$_['text_months']       = "мес.";
+$_['text_weeks']        = "нед.";
+$_['text_days']         = "дд";
+$_['text_hours']        = "чч";
+$_['text_minutes']      = "мин.";
+$_['text_seconds']      = "сек.";
+$_['text_new']      	= "новый";
+$_['text_sale']     	= "продается";
 ?>

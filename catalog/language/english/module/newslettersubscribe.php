@@ -1,6 +1,6 @@
 <?php
 // Heading 
-$_['heading_title'] 	 = 'NEWSLETTER';
+$_['heading_title'] 	 = 'Подписка';
 
 $_['newletter_lable'] 	 = 'sign up now and get 25% off!';
 

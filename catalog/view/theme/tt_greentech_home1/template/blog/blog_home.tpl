@@ -2,7 +2,7 @@
 <div id="blog_home" class="menu-recent first-title">
 		
 	  <div class="blog-title module-title2 title-group">
-		<h2>
+		<h2><?php $heading_title2='Новости'; $heading_title1='последние'; $button_read_more='Читать далее...'; ?>
 			<span class="word1"><?php echo $heading_title1; ?></span>
 			<span class="word2"><?php echo $heading_title2; ?></span>
 		</h2>
