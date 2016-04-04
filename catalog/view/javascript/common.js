@@ -373,11 +373,11 @@ var wishlist = {
 				$('.alert').remove();
 
 				if (json['success']) {
-					$('body').before('<div class="alert alert-success"><i class="fa fa-check-circle"></i> ' + json['success'] + '<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+					$('header').after('<div class="alert alert-success"><i class="fa fa-check-circle"></i> ' + json['success'] + '<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
 				}
 
 				if (json['info']) {
-					$('body').before('<div class="alert alert-info"><i class="fa fa-check-circle"></i> ' + json['info'] + '<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+					$('header').after('<div class="alert alert-info"><i class="fa fa-check-circle"></i> ' + json['info'] + '<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
 				}
 
 				$('#wishlist-total span').html(json['total']);
@@ -403,7 +403,7 @@ var compare = {
 				$('.alert').remove();
 
 				if (json['success']) {
-					$('body').before('<div class="alert alert-success"><i class="fa fa-check-circle"></i> ' + json['success'] + '<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+					$('header').after('<div class="alert alert-success"><i class="fa fa-check-circle"></i> ' + json['success'] + '<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
 
 					$('#compare-total').html(json['total']);
 
@@ -589,12 +589,12 @@ $(window).scroll(function () {
 window.onload = function() {
     /* Add your logic here */
 
-if(screen.width < 950 ){
+if(screen.width < 949 ){
 var trr = document.getElementById("trr");
 var tel = document.getElementById("tel");
 var akk = document.getElementById("akk");
 trr.innerHTML = " ";
-tel.innerHTML = "89119240310";
+tel.innerHTML = "89110012340";
 akk.innerHTML = "лич.кабинет";
 }
 

@@ -382,13 +382,14 @@ button:hover {
     display: inline-block;
 }
 .top-header{
-	line-height: 45px;
+	line-height: 60px;
     background: #00a9e0;
     color: #fff;
     position: fixed;
     width:100%;
     z-index: 9997;
 	font-size:12px;
+    opacity: 0.8;
 }
 
 
@@ -401,10 +402,15 @@ button:hover {
     display: inline;
     
     } 
+    #tel {
+        font-size: 1.2em;
+        color: white;
+        
+    }
 
 @media (max-width: 950px) {
     #logo-fixed.image {
-    content:url('http://igodno.ru/image/cache/catalog/ifavicon-100x100.png');
+    content:url('http://igodno.ru/image/catalog/logo_head.png');
     z-index: 9998;
     #ul_top_menu li {display: list-item;}
     table td { display:none; }
@@ -414,6 +420,17 @@ button:hover {
     visibility: hidden;
     } 
     }
+    
+    .top-header{
+    line-height: 5px;
+    background: #00a9e0;
+    color: #fff;
+    position: fixed;
+    width:100%;
+    z-index: 9997;
+    font-size:16px;
+    opacity: 0.8;
+}
 }
 
 

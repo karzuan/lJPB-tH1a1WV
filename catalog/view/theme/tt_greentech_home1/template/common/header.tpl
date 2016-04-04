@@ -90,7 +90,7 @@ $(document).ready(function() {
                         <table class="topmenu">
                             <tr>
                                 <td style="width:25%;">
-                                    <div id='logo-fixed'></div>
+                                    <a href="http://igodno.ru/"><div id='logo-fixed'></div></a>
                                 </td>
                                 <td style="width:25%;">
                                     
@@ -101,7 +101,7 @@ $(document).ready(function() {
                                          
                                 <td style="width:35%;">
                                     
-                                    <strong><a href="tel:+79119240310" id='tel' >8 911 924-03-10</a></strong>
+                                    <strong><a href="tel:+79110012340" id='tel' >8 911 0012340</a></strong>
                                  </td>
                                  <td>
                                         <div class="header-link"> 

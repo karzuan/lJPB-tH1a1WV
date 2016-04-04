@@ -2,7 +2,7 @@
 <div class="footer">
 	<div class="container">
 		<div class="row">
-			<div class="column col1 col-md-2 col-sm-2 col-xs-6">
+			<div class="column col1 col-md-3 col-sm-2 col-xs-6">
 				<div class="footer-title"><h3><?php echo $text_account; ?></h3></div>
 				<div class="footer-content">
 				   <ul class="toggle-footer">
@@ -14,14 +14,14 @@
 				   </ul>
 				</div>
 			</div>
-			<div class="column col2 col-md-2 col-sm-2 col-xs-6">
+			<div class="column col2 col-md-3 col-sm-2 col-xs-6">
 			  <div class="footer-title"><h3><?php echo $text_extra; ?></h3></div>
 			  <div class="footer-content">
 			   <ul class="toggle-footer">
 				 <li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li>
-				 <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-				 <li><a href="<?php echo $wishlist; ?>"><?php echo $text_wishlist; ?></a></li>
-				 <li><a href="<?php echo $affiliate; ?>"><?php echo $text_affiliate; ?></a></li>
+				 <!--<li><a href="<?php echo $voucher; ?>"><?php //echo $text_voucher; ?></a></li>!-->
+				 <!--<li><a href="<?php echo $wishlist; ?>"><?php //echo $text_wishlist; ?></a></li>!-->
+				 <!-- <li><a href="<?php echo $affiliate; ?>"><?php //echo $text_affiliate; ?></a></li>!-->
 				 <li><a href="<?php echo $special; ?>"><?php echo $text_special; ?></a></li>
 			   </ul>
 			  </div>
@@ -31,28 +31,29 @@
 				</div>
 				<div class="footer-content">
 					<ul class="toggle-footer">
-					 <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+					 <!--<li><a href="<?php echo $contact; ?>"><?php //echo $text_contact; ?></a></li>!-->
 					 <li><a href="<?php echo $return; ?>"><?php echo $text_return; ?></a></li>
 					 <li><a href="<?php echo $sitemap; ?>"><?php echo $text_sitemap; ?></a></li>
-					 <li><a href="<?php echo $affiliate; ?>"><?php echo $text_affiliate; ?></a></li>
-					 <li><a href="<?php echo $wishlist; ?>"><?php echo $text_wishlist; ?></a></li>
+					 <!--<li><a href="<?php echo $affiliate; ?>"><?php //echo $text_affiliate; ?></a></li>!-->
+					 <!--<li><a href="<?php echo $wishlist; ?>"><?php //echo $text_wishlist; ?></a></li>!-->
 				   </ul>
 				</div>
 			</div>
-			
+			<!--
 			<div class="column col-md-2 col-sm-2 col-xs-6">
 				<div class="footer-title"><h3><?php echo $text_service; ?></h3>
 				</div>
 				<div class="footer-content">
 					<ul class="toggle-footer">
-					<li><a href="<?php echo $affiliate; ?>"><?php echo $text_affiliate; ?></a></li>
-					 <li><a href="<?php echo $wishlist; ?>"><?php echo $text_wishlist; ?></a></li>
-					 <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
-					 <li><a href="<?php echo $return; ?>"><?php echo $text_return; ?></a></li>
-					 <li><a href="<?php echo $sitemap; ?>"><?php echo $text_sitemap; ?></a></li>
+					<li><a href="<?php echo $affiliate; ?>"><?php //echo $text_affiliate; ?></a></li>
+					 <li><a href="<?php echo $wishlist; ?>"><?php //echo $text_wishlist; ?></a></li>
+					 <li><a href="<?php echo $contact; ?>"><?php //echo $text_contact; ?></a></li>
+					 <li><a href="<?php echo $return; ?>"><?php //echo $text_return; ?></a></li>
+					 <li><a href="<?php echo $sitemap; ?>"><?php //echo $text_sitemap; ?></a></li>
 				   </ul>
 				</div>
 			</div>
+                         --!-->
 			
 			<div class="column col4 col-md-4 col-sm-4 col-xs-6">
 				<div class="footer-title"><h3><?php echo $text_contact; ?></h3></div>
@@ -74,7 +75,7 @@
 		<div class="f-col f-col-2 col-md-4 col-sm-4 col-xs-12">
 			<?php echo $content_block5; ?>
 		</div>
-		<div class="f-col f-col-1 col-md-4 col-sm-4 col-xs-12">
+		<!--<div class="f-col f-col-1 col-md-4 col-sm-4 col-xs-12">
 			<div class="box-follow">
 				<h3><?php echo $text_follow_title; ?></h3>
 				<ul class="link-follow">
@@ -89,7 +90,7 @@
 		<div class="f-col f-col-3 col-md-4 col-sm-4 col-sms-12">
 				<a href="#" class="payment"><img alt="" src="image/catalog/payment.png"></a>
 		</div>
-	</div>
+	</div> !-->
 </div>
 </div>
 </div>
@@ -97,7 +98,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="right-powered">
-				<div> <?php echo $powered; ?></div>
+				<div> <?php //echo $powered; ?></div>
+                                iГОДНО - магазин систем безопасности © 2010-<?=date('Y');?>
 			</div>
 		</div>
 	</div>
