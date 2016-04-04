@@ -1696,7 +1696,7 @@ padding: 20px 15px 10px;
 }
 .layerednavigation{margin-bottom:30px;}
 /*productt-view------------------------------------------*/
-.custom-products .item-inner{margin-bottom:20px;}
+.custom-products .item-inner{margin-bottom:20px; }
 .product-view .image-additional {
     margin: 0;
 }

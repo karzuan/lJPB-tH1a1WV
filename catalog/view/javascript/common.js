@@ -193,7 +193,7 @@ function display(view) {
 		if (cols == 2) {
 			$('#content .product-layout').attr('class', 'product-layout product-grid col-lg-6 col-md-6 col-sm-12 col-xs-6 col-mobile');
 		} else if (cols == 1) {
-			$('#content .product-layout').attr('class', 'product-layout product-grid col-lg-3 col-md-4 col-sm-6 col-xs-6 col-mobile');
+			$('#content .product-layout').attr('class', 'product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-6 col-mobile');
 		} else {
 			$('#content .product-layout').attr('class', 'product-layout product-grid col-lg-3 col-md-3 col-sm-6 col-xs-6 col-mobile');
 		}
