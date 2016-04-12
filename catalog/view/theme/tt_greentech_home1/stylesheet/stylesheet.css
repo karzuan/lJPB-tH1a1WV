@@ -382,7 +382,7 @@ button:hover {
     display: inline-block;
 }
 .top-header{
-	line-height: 60px;
+    line-height: 40px;
     background: #00a9e0;
     color: #fff;
     position: fixed;
@@ -394,9 +394,9 @@ button:hover {
 
 
 #logo-fixed.image {
-    content:url('http://igodno.ru/image/catalog/logot.png');
+    content:url('http://igodno.ru/image/catalog/logo_toph.png');
+   
     z-index: 9998;
-    background-color: #c9c9c9;
 }
     #trr {
     display: inline;
