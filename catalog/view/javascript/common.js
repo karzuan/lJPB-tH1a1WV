@@ -594,7 +594,7 @@ var trr = document.getElementById("trr");
 var tel = document.getElementById("tel");
 var akk = document.getElementById("akk");
 trr.innerHTML = " ";
-tel.innerHTML = "89110012340";
+tel.innerHTML = "2444980";
 akk.innerHTML = "лич.кабинет";
 }
 

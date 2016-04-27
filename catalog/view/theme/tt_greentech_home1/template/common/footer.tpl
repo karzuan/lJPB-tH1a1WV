@@ -32,6 +32,7 @@
 				<div class="footer-content">
 					<ul class="toggle-footer">
 					 <!--<li><a href="<?php echo $contact; ?>"><?php //echo $text_contact; ?></a></li>!-->
+                                         <li><a href="http://igodno.ru/index.php?route=information/information&information_id=7>">Реквезиты</a></li>
 					 <li><a href="<?php echo $return; ?>"><?php echo $text_return; ?></a></li>
 					 <li><a href="<?php echo $sitemap; ?>"><?php echo $text_sitemap; ?></a></li>
 					 <!--<li><a href="<?php echo $affiliate; ?>"><?php //echo $text_affiliate; ?></a></li>!-->

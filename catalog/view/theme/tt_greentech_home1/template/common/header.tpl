@@ -101,7 +101,7 @@ $(document).ready(function() {
                                          
                                 <td style="width:35%;">
                                     
-                                    <strong><a href="tel:+79110012340" id='tel' >8 911 0012340</a></strong>
+                                    <strong><a href="tel:+79110012340" id='tel' >8(812)244-49-80</a></strong>
                                  </td>
                                  <td>
                                         <div class="header-link"> 
@@ -169,6 +169,38 @@ $(document).ready(function() {
 	</div>
 </div>
 </div>
+    
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter36962535 = new Ya.Metrika({
+                    id:36962535,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true,
+                    ecommerce:"dataLayer"
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/36962535" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    
 </header>
 <div class="megamenu"><div class="container">
 	<div class="row">

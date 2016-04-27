@@ -73,7 +73,7 @@
             <?php if ($reward) { ?>
             <li><?php echo $text_reward; ?> <?php echo $reward; ?></li>
             <?php } ?>
-            <li><?php echo $text_stock; ?> <?php echo $stock; ?></li>
+            <li><?php echo $text_stock; ?> <?php echo strtolower($stock); ?></li>
         </ul>
 		<?php if ($price) { ?>
           <div class="price">
