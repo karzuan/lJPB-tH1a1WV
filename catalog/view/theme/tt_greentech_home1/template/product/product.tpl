@@ -77,8 +77,15 @@
         </ul>
 		<?php if ($price) { ?>
           <div class="price">
+            <?php 
+            $lol = false;
+            $numbers = preg_replace( "/\D/", '' , $price );
+            $numbers = substr($numbers, 0, -2);
+            if ($numbers < 5000) $lol = true;
+            ?>
             <?php if (!$special) { ?>
-            <?php echo $price; ?>
+            <?php echo $price; ?>   
+            <?php if($lol) echo '<div><h3 style="color: #ff9600;">Продажа данного товара осуществляется<br> при общей сумме заказа более 5000 руб.</h3></div>'; ?>
             <?php } else { ?>
 			<?php echo $special; ?>
             <span class="price-old" style="text-decoration: line-through;"><?php echo $price; ?></span>

@@ -77,6 +77,7 @@
         </ul>
 		<?php if ($price) { ?>
           <div class="price">
+              
             <?php if (!$special) { ?>
             <?php echo $price; ?>
             <?php } else { ?>

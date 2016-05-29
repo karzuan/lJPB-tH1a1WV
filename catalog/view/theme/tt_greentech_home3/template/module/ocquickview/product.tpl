@@ -141,6 +141,7 @@
             <li><?php echo $text_stock; ?> <?php echo $stock; ?></li>
           </ul>
           <div class="price">
+              
             <?php if (!$special) { ?>
             <?php echo $price; ?>
             <?php } else { ?>
