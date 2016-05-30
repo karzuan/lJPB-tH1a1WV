@@ -89,19 +89,19 @@ $(document).ready(function() {
 		<div class="container">
                         <table class="topmenu">
                             <tr>
-                                <td style="width:25%;">
+                                <td style="width:21%;">
                                     <a href="http://igodno.ru/"><div id='logo-fixed'></div></a>
                                 </td>
-                                <td style="width:25%;">
+                                <td style="width:21%;">
                                     
                                         <div class="header-welcome" >
                                             <p id='trr'><?php echo $text_msg; ?></p>
                                         </div>
                                 </td>
                                          
-                                <td style="width:35%;">
+                                <td style="width:44%;">
                                     
-                                    <strong><a href="tel:+79110012340" id='tel' >8(812)244-49-80</a></strong>
+                                    <strong><a href="tel:+79110012340" id='tel' style="color:white; font-size:16px; font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;8(812)244-49-80</a></strong>
                                  </td>
                                  <td>
                                         <div class="header-link"> 

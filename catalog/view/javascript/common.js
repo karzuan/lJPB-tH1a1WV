@@ -593,7 +593,7 @@ if(screen.width < 949 ){
 var trr = document.getElementById("trr");
 var tel = document.getElementById("tel");
 var akk = document.getElementById("akk");
-trr.innerHTML = " ";
+trr.innerHTML = "тел.";
 tel.innerHTML = "2444980";
 akk.innerHTML = "лич.кабинет";
 }

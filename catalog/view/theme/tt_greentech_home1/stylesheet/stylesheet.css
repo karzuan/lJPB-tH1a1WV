@@ -2027,7 +2027,7 @@ background: #fff !important;
     margin: 20px 0 0;
 }
 .product-view .tab-content {
-    max-height: 300px;
+    max-height: 500px;
     overflow: auto;
     margin: 0;
     font-size: 12px;
@@ -2037,6 +2037,21 @@ background: #fff !important;
     padding: 20px;
     border: 1px solid #e1e1e1;
     margin-top: 30px;
+}
+@media screen and (max-width: 800px) {
+    
+.product-view .tab-content {
+    max-height: 1200px;
+    overflow: auto;
+    margin: 0;
+    font-size: 12px;
+    line-height: 23px;
+    color: #959595;
+    text-align: justify;
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+    margin-top: 30px;
+}
 }
 .product-view #tab-review h2 {
     font-size: 18px;
