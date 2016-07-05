@@ -63,8 +63,9 @@ class Mail {
 		}
 
 		if (!$this->from) {
-			trigger_error('Error: E-Mail from required!');
-			exit();
+			//trigger_error('Error: E-Mail from required!');
+			//exit();
+			$this->from='feedback@igodno.ru';
 		}
 
 		if (!$this->sender) {
@@ -78,10 +79,10 @@ class Mail {
 		}
 
 		if ((!$this->text) && (!$this->html)) {
-			trigger_error('Error: E-Mail message required!');
-			exit();
+			//trigger_error('Error: E-Mail message required!');
+			//exit();
+			$this->text='пустое сообщение';
 		}
-
 		if (is_array($this->to)) {
 			$to = implode(',', $this->to);
 		} else {

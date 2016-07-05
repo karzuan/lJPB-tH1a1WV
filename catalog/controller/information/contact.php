@@ -21,7 +21,8 @@ class ControllerInformationContact extends Controller {
 			$mail->setFrom($this->request->post['email']);
 			$mail->setSender(html_entity_decode($this->request->post['name'], ENT_QUOTES, 'UTF-8'));
 			$mail->setSubject(html_entity_decode(sprintf($this->language->get('email_subject'), $this->request->post['name']), ENT_QUOTES, 'UTF-8'));
-			$mail->setText($this->request->post['enquiry']);
+			$this->request->post['enquiry'] = 'телефон: '. $this->request->post['phone'].'  модель: '. $this->request->post['model'].'   сообщение: '.$this->request->post['enquiry'];                        
+                        $mail->setText($this->request->post['enquiry']);
 			$mail->send();
 
 			$this->response->redirect($this->url->link('information/contact/success'));
@@ -61,8 +62,16 @@ class ControllerInformationContact extends Controller {
 		} else {
 			$data['error_name'] = '';
 		}
+                
+                if (isset($this->error['phone'])) {
+			$data['error_phone'] = $this->error['phone'];
+		} else {
+			$data['error_phone'] = '';
+		}
 
-		if (isset($this->error['email'])) {
+		
+                if (isset($this->error['email'])) {
+                
 			$data['error_email'] = $this->error['email'];
 		} else {
 			$data['error_email'] = '';
@@ -73,7 +82,7 @@ class ControllerInformationContact extends Controller {
 		} else {
 			$data['error_enquiry'] = '';
 		}
-
+                 
 		$data['button_submit'] = $this->language->get('button_submit');
 
 		$data['action'] = $this->url->link('information/contact', '', 'SSL');
@@ -134,6 +143,11 @@ class ControllerInformationContact extends Controller {
 		} else {
 			$data['email'] = $this->customer->getEmail();
 		}
+                if (isset($this->request->post['phone'])) {
+			$data['phone'] = $this->request->post['phone'];
+		} else {
+			$data['phone'] = '';
+		}
 
 		if (isset($this->request->post['enquiry'])) {
 			$data['enquiry'] = $this->request->post['enquiry'];
@@ -166,13 +180,17 @@ class ControllerInformationContact extends Controller {
 		if ((utf8_strlen($this->request->post['name']) < 3) || (utf8_strlen($this->request->post['name']) > 32)) {
 			$this->error['name'] = $this->language->get('error_name');
 		}
+                
+                if ((utf8_strlen($this->request->post['phone']) < 7) || (utf8_strlen($this->request->post['phone']) > 3000)) {
+			$this->error['phone'] = $this->language->get('error_phone');
+		}
 
 		if (!preg_match($this->config->get('config_mail_regexp'), $this->request->post['email'])) {
-			$this->error['email'] = $this->language->get('error_email');
+			//$this->error['email'] = $this->language->get('error_email');
 		}
 
 		if ((utf8_strlen($this->request->post['enquiry']) < 10) || (utf8_strlen($this->request->post['enquiry']) > 3000)) {
-			$this->error['enquiry'] = $this->language->get('error_enquiry');
+			//$this->error['enquiry'] = $this->language->get('error_enquiry');
 		}
 
 		// Captcha

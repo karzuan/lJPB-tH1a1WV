@@ -8,7 +8,7 @@
     <?php } else { ?>
     <?php $class = 'col-md-12 col-sm-12 col-xs-12'; ?>
     <?php } ?>
-    <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
+    <div id="content" class="<?php echo $class; ?>"><?php //echo $content_top; ?>
 
         <ul class="breadcrumb">	
 	<?php foreach ($breadcrumbs as $i=> $breadcrumb) { ?>
@@ -18,8 +18,8 @@
   </ul>
         
         
-	<div class="product-view">
-		<div class="row">
+  <div class="product-view">
+    <div class="row">
         <?php if ($column_left && $column_right) { ?>
         <?php $class = 'col-md-6 col-sm-6 col-sms-12 col-xs-12 view-zoom'; ?>
         <?php } elseif ($column_left || $column_right) { ?>
@@ -27,28 +27,31 @@
         <?php } else { ?>
         <?php $class = 'col-sm-5'; ?>
         <?php } ?>
-		<div class="<?php echo $class; ?>">
-		  <div class="image-block">
-				  <?php if ($thumb || $images) { ?>
-				  <div class="thumbnails-image">
-					<?php if ($thumb) { ?>
-					<a class="thumbnail" title="<?php echo $heading_title; ?>"><img src="<?php echo $thumb; ?>" data-zoom-image="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a>
-					<?php } ?>
-			</div>
-			<div class="row">
-			<div class="image-additional" id="gallery_01">
-		   <?php if ($thumb) { ?>
-					<a class="thumbnail" href="#" data-image="<?php echo $thumb; ?>" data-zoom-image="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>"><img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a>
-					<?php } ?>
-					<?php if ($images) { ?>
-					<?php foreach ($images as $image) { ?>
-					<a class="thumbnail" href="#" data-image="<?php echo $image['thumb']; ?>" data-zoom-image="<?php echo $image['popup']; ?>" title="<?php echo $heading_title; ?>"> <img  src="<?php echo $image['thumb']; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a>
-					<?php } ?>
-					<?php } ?>
-				  </div>
-				  </div>
-				  <?php } ?>
-				 </div> 
+    <div class="<?php echo $class; ?>">
+      <div class="image-block">
+          <?php if ($thumb || $images) { ?>
+          <div class="thumbnails-image">
+          <?php if ($thumb) { ?>
+          <a class="thumbnail" title="<?php echo $heading_title; ?>"><img src="<?php echo $thumb; ?>" data-zoom-image="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a>
+          <?php } ?>
+      </div>
+      <div class="row">
+      <div class="image-additional" id="gallery_01">
+       <?php if ($thumb) { ?>
+          <a class="thumbnail" href="#" data-image="<?php echo $thumb; ?>" data-zoom-image="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>"><img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a>
+          <?php } ?>
+          <?php if ($images) { ?>
+          <?php foreach ($images as $image) { ?>
+          <a class="thumbnail" href="#" data-image="<?php echo $image['thumb']; ?>" data-zoom-image="<?php echo $image['popup']; ?>" title="<?php echo $heading_title; ?>"> <img  src="<?php echo $image['thumb']; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a>
+          <?php } ?>
+          <?php } ?>
+          </div>
+          </div>
+          <?php } ?>
+          <!--!-->
+          <?php echo $content_top; ?>
+          <!--!-->
+         </div>
         </div>
         <?php if ($column_left && $column_right) { ?>
         <?php $class = 'col-md-6 col-sm-6 col-sms-12 col-xs-12'; ?>
@@ -58,20 +61,22 @@
         <?php $class = 'col-sm-7'; ?>
         <?php } ?>
         <div class="<?php echo $class; ?>">
-          <div class="product-name"><h1><?php echo $heading_title; ?></h1></div>
-		<div class="box-review-rating">
+        <div class="row">
+          <div class="col-md-5">
+          <h1><?php echo $heading_title; ?></h1>
+    <div class="box-review-rating">
                     <a href="http://clck.yandex.ru/redir/dtype=stred/pid=47/cid=2508/*https://market.yandex.ru/shop/346241/reviews"><img src="http://clck.yandex.ru/redir/dtype=stred/pid=47/cid=2505/*http://grade.market.yandex.ru/?id=346241&action=image&size=0" border="0" width="88" height="31" alt="Читайте отзывы покупателей и оценивайте качество магазина на Яндекс.Маркете" /></a><br>
-			  <?php if ($rating) { ?>
-				  <?php if (isset($rating)) { ?>
-					<div class="rating"><img src="catalog/view/theme/default/image/stars-<?php echo $rating; ?>.png" alt="" /></div>
-					<?php }} else {?>
-				   
-					<div class="rating"><img src="catalog/view/theme/default/image/stars-0.png" alt="" /></div>
-				<?php }?>
-			<a href="" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"><?php echo $reviews; ?></a>
-		</div>
+        <?php if ($rating) { ?>
+          <?php if (isset($rating)) { ?>
+          <div class="rating"><img src="catalog/view/theme/default/image/stars-<?php echo $rating; ?>.png" alt="" /></div>
+          <?php }} else {?>
+           
+          <div class="rating"><img src="catalog/view/theme/default/image/stars-0.png" alt="" /></div>
+        <?php }?>
+      <a href="" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"><?php echo $reviews; ?></a>
+    </div>
 
-		<ul class="list-unstyled">
+    <ul class="list-unstyled">
             <?php if ($manufacturer) { ?>
             <li><?php echo $text_manufacturer; ?> <a href="<?php echo $manufacturers; ?>"><?php echo $manufacturer; ?></a></li>
             <?php } ?>
@@ -81,7 +86,7 @@
             <?php } ?>
             <li><?php echo $text_stock; ?> <?php echo strtolower($stock); ?></li>
         </ul>
-		<?php if ($price) { ?>
+    <?php if ($price) { ?>
           <div class="price">
             <?php 
             $lol = false;
@@ -93,14 +98,14 @@
             <?php echo $price; ?>   
             <?php if($lol) echo '<div><h3 style="color: #ff9600;">Продажа данного товара осуществляется<br> при общей сумме заказа более 5000 руб.</h3></div>'; ?>
             <?php } else { ?>
-			<?php echo $special; ?>
+      <?php echo $special; ?>
             <span class="price-old" style="text-decoration: line-through;"><?php echo $price; ?></span>
             <?php } ?>
-			<span class="price-tax">
+      <span class="price-tax">
             <?php if ($tax) { ?>
             <?php echo $text_tax; ?> <?php echo $tax; ?>
             <?php } ?>
-			</span>
+      </span>
             <?php if ($points) { ?>
             <?php //echo $text_points; ?> <?php //echo $points; ?>
             <?php } ?>
@@ -111,14 +116,67 @@
             <?php } ?>
           </div>
         <?php } ?>
-		  <div class="short-description">
+      <div class="short-description">
             <?php
                 //echo $shortdescription;
                 //echo $description;
             ?>
                  </div>
-            	  <div class="tab-view">
-			<ul class="nav nav-tabs">
+                  </div><!-- end div col 5!-->
+                  <div class="col-md-7"  style="background-color: #9ce4ff;">
+                        <!-- форма обратной связи !-->
+<form action="http://igodno.ru/index.php?route=information/contact" method="post" enctype="multipart/form-data" class="form-horizontal">
+        <fieldset>
+          <legend>Оставьте заявку на консультацию инженера:</legend>
+          <div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-name">ФИО</label>
+            <div class="col-sm-10">
+              <input placeholder="Иванов Иван Иванович" type="text" name="name" value="" id="input-name" class="form-control" />
+              
+            </div>
+            </div>
+            
+             <div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-phone">ТЛФ.</label>
+            <div class="col-sm-10">
+              <input placeholder="8 911-000-0000" type="text" name="phone" value="" id="input-email" class="form-control" />
+              
+            </div>
+          </div>
+          
+              <input type="hidden" name="model" value="<?=$heading_title;?>" id="input-model" class="form-control" />
+              
+            
+          
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-email">Email</label>
+            <div class="col-sm-10">
+              <input placeholder="example@mail.ru" type="text" name="email" value="" id="input-email" class="form-control" />
+              
+            </div>
+          </div>
+         
+          <!--<div class="form-group">
+            <label class="col-sm-2 control-label" for="input-enquiry">Сбщ.</label>
+            <div class="col-sm-10">
+              <textarea name="enquiry" rows="20" id="input-enquiry" class="form-control"></textarea>
+              
+            </div>
+          </div>!-->
+          
+        </fieldset>
+        <div class="buttons">
+          <div class="pull-right">
+            <input class="btn btn-primary" type="submit" value="Отправить" />
+          </div>
+        </div>
+      </form>
+<!-- форма обратной связи !-->
+          
+                  </div><!-- end div col 7-->
+        </div><!-- end div row !-->
+                <div class="tab-view">
+      <ul class="nav nav-tabs">
             <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
             <li><a href="#tab-complect" data-toggle="tab">Комплектация</a></li>
             <?php if ($attribute_groups) { ?>
@@ -214,35 +272,35 @@
             </div>
             <?php } ?>
           </div>
-		</div>
+    </div>
           
-		  
-		  <div class="add-to-links">
-			<label class="control-label" for="input-quantity"><?php echo $entry_qty; ?></label>
-			<div class="form-group">
-					<div class="input-content">
-					  <input type="text" name="quantity" value="<?php echo $minimum; ?>" size="2" id="input-quantity" class="form-control" />
-					</div>
-				  <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block button-cart"><span><?php echo $button_cart; ?></span></button>
-				</div>
-				<div class="alert-info-fa">
-				<?php if ($minimum > 1) { ?>
-				<div class="alert alert-info"><i class="fa fa-info-circle"></i> <?php echo $text_minimum; ?></div>
-				<?php } ?>
-				</div>
-			<div class="btn-group">
-				<div class="wishlist"><button type="button" class="btn btn-default" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product_id; ?>');"><span><?php echo $button_wishlist; ?></span></button></div>
-				<div class="compare"><button type="button" class="btn btn-default" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product_id; ?>');"><span><?php echo $button_compare; ?></span></button></div>
-			</div>
-			
-			</div>
-			<!-- AddThis Button BEGIN -->
+      
+      <div class="add-to-links">
+      <label class="control-label" for="input-quantity"><?php echo $entry_qty; ?></label>
+      <div class="form-group">
+          <div class="input-content">
+            <input type="text" name="quantity" value="<?php echo $minimum; ?>" size="2" id="input-quantity" class="form-control" />
+          </div>
+          <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block button-cart"><span><?php echo $button_cart; ?></span></button>
+        </div>
+        <div class="alert-info-fa">
+        <?php if ($minimum > 1) { ?>
+        <div class="alert alert-info"><i class="fa fa-info-circle"></i> <?php echo $text_minimum; ?></div>
+        <?php } ?>
+        </div>
+      <div class="btn-group">
+        <div class="wishlist"><button type="button" class="btn btn-default" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product_id; ?>');"><span><?php echo $button_wishlist; ?></span></button></div>
+        <div class="compare"><button type="button" class="btn btn-default" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product_id; ?>');"><span><?php echo $button_compare; ?></span></button></div>
+      </div>
+      
+      </div>
+      <!-- AddThis Button BEGIN -->
             <div class="addthis_toolbox addthis_default_style"><a class="addthis_button_facebook_like" fb:like:layout="button_count"></a> <a class="addthis_button_tweet"></a> <a class="addthis_button_pinterest_pinit"></a> <a class="addthis_counter addthis_pill_style"></a></div>
             <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-515eeaf54693130e"></script> 
             <!-- AddThis Button END -->
           <div id="product">
-		  <input type="hidden" name="product_id" value="<?php echo $product_id; ?>" />
-				<?php if ($options) { ?>
+      <input type="hidden" name="product_id" value="<?php echo $product_id; ?>" />
+        <?php if ($options) { ?>
             <h3><?php echo $text_option; ?></h3>
             <?php foreach ($options as $option) { ?>
             <?php if ($option['type'] == 'select') { ?>
@@ -472,6 +530,58 @@
                                                         
 
 	  </div>
+<!-- форма обратной связи !-->
+<div class='row'>
+    <div class="col-md-6 col-md-offset-3" style="background-color: #9ce4ff;">
+<form action="http://igodno.ru/index.php?route=information/contact" method="post" enctype="multipart/form-data" class="form-horizontal">
+        <fieldset>
+          <legend>Оставьте заявку на консультацию инженера:</legend>
+          <div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-name"><?php echo $entry_name; ?></label>
+            <div class="col-sm-10">
+              <input placeholder="Иванов Иван Иванович" type="text" name="name" value="" id="input-name" class="form-control" />
+              
+            </div>
+            </div>
+            
+             <div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-phone">Телефон</label>
+            <div class="col-sm-10">
+                <input placeholder="8 911-000-0000" type="text" name="phone" value="" id="input-email" class="form-control" />
+              
+            </div>
+          </div>
+          
+              <input type="hidden" name="model" value="<?=$heading_title;?>" id="input-model" class="form-control" />
+              
+           
+          
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-email">E-mail</label>
+            <div class="col-sm-10">
+              <input placeholder="example@mail.ru" type="text" name="email" value="" id="input-email" class="form-control" />
+              
+            </div>
+          </div>
+         
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-enquiry">Сообщение</label>
+            <div class="col-sm-10">
+              <textarea placeholder="Оставьте заявку на консультацию." name="enquiry" rows="20" id="input-enquiry" class="form-control"></textarea>
+              
+            </div>
+          </div>
+          
+        </fieldset>
+        <div class="buttons">
+          <div class="pull-right">
+            <input class="btn btn-primary" type="submit" value="Отправить" />
+          </div>
+        </div>
+      </form>
+        </div>
+       </div>
+<!-- форма обратной связи !-->
 	<?php echo $content_bottom; ?>
 </div>
 <script type="text/javascript">
